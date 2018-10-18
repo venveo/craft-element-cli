@@ -1,13 +1,13 @@
 # Element CLI plugin for Craft CMS 3.x
 
-Interact with elements via the Craft CLI
+Interact with elements via the Craft CLI.
 
 ### Entries
 #### Available Options
-- section <handle>
-- entrytype <handle>
-- status <enabled/disabled>
-- site <handle>
+- `section <handle>`
+- `entrytype <handle>`
+- `status <enabled/disabled>`
+- `site <handle>`
 
 #### Available Actions
 Get total number of entries:
