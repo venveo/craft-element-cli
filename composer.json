@@ -1,0 +1,40 @@
+{
+    "name": "venveo/craft-element-cli",
+    "description": "Interact with elements via the Craft CLI",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "element cli"
+    ],
+    "support": {
+        "docs": "https://github.com/venveo/element-cli/blob/master/README.md",
+        "issues": "https://github.com/venveo/element-cli/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Venveo",
+            "homepage": "https://venveo.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "venveo\\elementcli\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Element CLI",
+        "handle": "element-cli",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/venveo/element-cli/master/CHANGELOG.md",
+        "class": "venveo\\elementcli\\ElementCli"
+    }
+}
